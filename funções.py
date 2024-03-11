@@ -28,8 +28,11 @@ def fazer_combo_bigmac (nome, tamanho_batata, tipo, tamanho_bebida):
 #fazer_combo_bigmac ("samuel", "grande", "guaraná", "grande")
 
 def soma(num1,num2):
-    return num1+num2   #resultado da função retornará assim, podendo ser usada fora da função 
-resultado = soma(17,31)    
-print(resultado)
+    resultaf = num1 + num2
+    return resultaf   #resultado da função retornará assim, podendo ser usada fora da função
+x = float(input("Digite o primeiro número: ")) 
+y = float(input(f"Digite o segundo número: "))
+resultado = soma(x,y)   
+print(f"{resultado: .1f}")
 
 

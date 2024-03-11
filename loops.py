@@ -23,18 +23,18 @@ namorada = ["larissa", "melo", "faria"]
 # for linda in range(len(namorada)): enumera os indices da lista e atribui cada item ao indice
 #     print(namorada[linda], linda)
 
-# for classificacao in range(9):
-#     if classificacao == 2:
-#         print("segundo")
-#     else:
-#         print(classificacao)
+for classificacao in range(9):
+     if classificacao == 2:
+         print("segundo")
+     else:
+         print("jiromba alada")
 
-matriz = [
-    [1,2,3],
-    [4,5,6],
-    [7,8,9],
-    [0],
-]
+#matriz = [
+    #[1,2,3],
+    #[4,5,6],
+    #[7,8,9],
+    #[0],
+#]
 # for linha in matriz:
 #     for coluna in linha:
 #         print(coluna)

@@ -19,3 +19,5 @@ idade = [16, 40, 37, 14, 2]
 #familia2=familia.copy() cópia da lista original, alterações na primeira n mudam essa
 
 #print(len(familia))
+
+#tuple é uma lista imutável e é chamado por meio de ()
